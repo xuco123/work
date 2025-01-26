@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(234, 29%, 20%);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.div1 {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.check1 {
+    display: flex;
+    gap: 10px;
+}
+
+.div3 {
+    height: 100%;
+}
+
+.img1 {
+    height: 100%;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+.input1 {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 98%;
+}
+
+.button1 {
+    height: 40px;
+    width: 100%;
+    background-color: hsl(234, 29%, 20%);
+    border: 0px;
+    color: white;
+
+}
+
+.button1:hover {
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px hsl(4, 100%, 77%);
+}
